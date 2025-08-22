@@ -189,7 +189,7 @@ print(set1.difference(set2))   # {1, 2}
 def find_max(numbers):
     if not numbers:
         return None
-    max_num = numbers[0]
+    max_num = numbers[0] # [0] is index
     for num in numbers:
         if num > max_num:
             max_num = num

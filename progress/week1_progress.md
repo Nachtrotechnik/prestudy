@@ -1,109 +1,139 @@
 # Week 1 Progress Tracker
 
-## Current Week: August 17 - August 24, 2025
+## Current Week: August 20 - August 27, 2025
 **Focus: Python Basics & Java OOP Refresh**
+
+---
 
 ## Learning Objectives Status
 
 ### Python Basics
-- [ ] Review Python basics: syntax, data types, control flow
-- [ ] Learn Python functions and data structures (lists, dictionaries, sets)
-- [ ] Complete 5-10 basic Python problems
+- [x] Review Python basics: syntax, data types, control flow
+- [x] Learn Python functions and data structures (lists, dictionaries, sets)
+- [x] Complete 5-10 basic Python problems
+
+### Python Advanced
+- [ ] File I/O basics
+- [ ] Error handling (try/except)
+- [ ] Modules and imports
+- [ ] Advanced data structures (tuples, nested structures)
 
 ### Java OOP Concepts
 - [ ] Refresh core Java OOP concepts (classes, objects, methods)
 - [ ] Practice the four pillars of OOP
 
+---
+
 ## Daily Progress Log
 
-### Day 1 (August 17, 2025) - TODAY
+### Day 1 (August 20, 2025) - COMPLETED ✅
 **Topics Covered:**
 - [x] Python syntax fundamentals
 - [x] Basic data types
 - [x] Control flow (if/else, loops)
-- [] Meta "A Very Big Sum" exercise
+- [x] Python functions and parameters
+- [x] Data structures: lists, dictionaries, sets
+- [x] List comprehensions and generator expressions
+- [x] Practice problems (max/min/sum/sort, word frequency, palindrome, unique elements, sum of evens)
 
-**Time Spent:** ___ hours
-**Notes:** Started IT Engineering journey with Python basics and first Meta exercise
+**Time Spent:** 3 hours  
+**Notes:** Great start! Completed Python basics and all practice problems. Built solid foundation.
 
-### Day 2 (August 18, 2025)
+**Reflection Questions:**
+- What was the most challenging Python concept to grasp?
+- How did you approach debugging when your code didn't work?
+- Which practice problem taught you the most about Python's capabilities?
+
+### Day 2 (August 22, 2025) - COMPLETED ✅
 **Topics Covered:**
-- [ ] Python functions
-- [ ] Function parameters and return values
-- [ ] Basic data structures introduction
-- [ ] Meta "Designer PDF Viewer" exercise
+- [x] Python advanced data structures (tuples, nested structures)
+- [x] File I/O basics
+- [x] Error handling (try/except)
+- [x] Meta "Designer PDF Viewer" exercise
 
-**Time Spent:** ___ hours
-**Notes:** ___
+**Time Spent:** 2.5 hours  
+**Notes:** Continued building Python skills with advanced concepts and completed second Meta exercise.
 
-### Day 3 (August 19, 2025)
+**Reflection Questions:**
+- How did error handling change your approach to writing robust code?
+- What was the most useful file I/O operation you learned?
+- How did you approach the Meta exercise differently from the first one?
+
+### Day 3 (August 23, 2025) - IN PROGRESS 🔄
 **Topics Covered:**
-- [ ] Python lists and list operations
-- [ ] List comprehensions
-- [ ] Practice problems 1-2
+- [x] Big O notation concepts (O(1), O(n), O(n²), O(log n))
+- [x] Meta "A Very Big Sum" exercise - COMPLETED
+- [x] C++ compilation and testing
+- [ ] Python modules and imports
+- [ ] More practice problems
 - [ ] Meta "Left Rotation" exercise
 
-**Time Spent:** ___ hours
-**Notes:** ___
+**Time Spent:** 2 hours (so far)  
+**Notes:** Learning Big O notation and completed first Meta exercise with C++ solution. Currently working on Python modules.
 
-### Day 4 (August 20, 2025)
-**Topics Covered:**
-- [ ] Python dictionaries and sets
-- [ ] Dictionary methods and operations
-- [ ] Practice problems 3-4
-- [ ] Meta "Insert Node in List" exercise
+**Reflection Questions:**
+- How did understanding Big O notation change your approach to problem-solving?
+- What was the biggest challenge in transitioning from Python to C++?
+- How did you debug the compilation errors you encountered?
+- What would you do differently next time you approach a C++ problem?
 
-**Time Spent:** ___ hours
-**Notes:** ___
-
-### Day 5 (August 21, 2025)
+### Day 4 (August 24, 2025)
 **Topics Covered:**
 - [ ] Java OOP basics
 - [ ] Classes and objects
 - [ ] Constructors and methods
+- [ ] Four pillars of OOP
+- [ ] Meta "Insert Node in List" exercise
+
+**Time Spent:** ___ hours  
+**Notes:** ___
+
+### Day 5 (August 25, 2025)
+**Topics Covered:**
+- [ ] Java OOP: Encapsulation and inheritance
+- [ ] Practice problems 5-6
 - [ ] Meta "Cycle Detection" exercise
 
-**Time Spent:** ___ hours
+**Time Spent:** ___ hours  
 **Notes:** ___
 
-### Day 6 (August 22, 2025)
+### Day 6 (August 26, 2025)
 **Topics Covered:**
-- [ ] Four pillars of OOP
-- [ ] Encapsulation and inheritance
-- [ ] Practice problems 5-6
-- [ ] Meta "Queue Using Two Stacks" exercise
-
-**Time Spent:** ___ hours
-**Notes:** ___
-
-### Day 7 (August 23, 2025)
-**Topics Covered:**
-- [ ] Polymorphism and abstraction
+- [ ] Java OOP: Polymorphism and abstraction
 - [ ] Java interfaces and abstract classes
 - [ ] Practice problems 7-8
-- [ ] Meta "Balanced Brackets" exercise
+- [ ] Meta "Queue Using Two Stacks" exercise
 
-**Time Spent:** ___ hours
+**Time Spent:** ___ hours  
 **Notes:** ___
 
-### Day 8 (August 24, 2025)
+### Day 7 (August 27, 2025)
 **Topics Covered:**
 - [ ] Advanced exercises 9-10
 - [ ] Review and consolidation
 - [ ] Week 1 assessment
+- [ ] Meta "Balanced Brackets" exercise
+
+**Time Spent:** ___ hours  
+**Notes:** ___
+
+### Day 8 (August 28, 2025)
+**Topics Covered:**
 - [ ] Meta "Ice Cream Parlor" exercise
 
-**Time Spent:** ___ hours
+**Time Spent:** ___ hours  
 **Notes:** ___
+
+---
 
 ## Exercise Completion Status
 
 ### Python Exercises
-- [ ] Exercise 1: Temperature Converter
-- [ ] Exercise 2: List Operations
-- [ ] Exercise 3: Dictionary Operations
-- [ ] Exercise 4: String Manipulation
-- [ ] Exercise 5: Number Operations
+- [x] Exercise 1: Temperature Converter
+- [x] Exercise 2: List Operations
+- [x] Exercise 3: Dictionary Operations
+- [x] Exercise 4: String Manipulation
+- [x] Exercise 5: Number Operations
 
 ### Java OOP Exercises
 - [ ] Exercise 6: Student Management System
@@ -115,7 +145,9 @@
 - [ ] Exercise 10: Design Pattern Implementation
 
 ### Meta Tech Screen Preparation
-- [ ] Topic 1: Arrays & Strings (3 exercises)
+- [x] Topic 1: Arrays & Strings (1/3 exercises) - "A Very Big Sum" ✅
+- [ ] Topic 1: Arrays & Strings (2/3 exercises) - "Designer PDF Viewer" 
+- [ ] Topic 1: Arrays & Strings (3/3 exercises) - "Left Rotation"
 - [ ] Topic 2: Lists (2 exercises)
 - [ ] Topic 3: Stacks & Queues (2 exercises)
 - [ ] Topic 4: Hash & Maps (2 exercises)
@@ -124,14 +156,16 @@
 - [ ] Topic 7: Graphs (2 exercises)
 - [ ] Topic 8: Recursion (1 exercise)
 
+---
+
 ## Self-Assessment
 
 ### Python Skills (Rate 1-5)
-- **Syntax & Basics:** ___/5
-- **Control Flow:** ___/5
-- **Functions:** ___/5
-- **Data Structures:** ___/5
-- **Problem Solving:** ___/5
+- **Syntax & Basics:** 4/5
+- **Control Flow:** 4/5
+- **Functions:** 4/5
+- **Data Structures:** 4/5
+- **Problem Solving:** 4/5
 
 ### Java OOP Skills (Rate 1-5)
 - **Classes & Objects:** ___/5
@@ -147,44 +181,50 @@
 - **Problem-Solving Approach:** ___/5
 - **Interview Communication:** ___/5
 
+---
+
 ## Challenges Faced
 
 ### Python Challenges
-1. **Challenge:** ___
-   - **Solution:** ___
-   - **Learned:** ___
+1. **Challenge:** Understanding list comprehensions and generator expressions  
+   - **Solution:** Practiced with examples and used them in practice problems  
+   - **Learned:** How to write concise and efficient code for filtering and transforming lists
 
-2. **Challenge:** ___
-   - **Solution:** ___
-   - **Learned:** ___
+2. **Challenge:** Handling edge cases (empty lists, unusual input)  
+   - **Solution:** Added checks in functions and tested with different inputs  
+   - **Learned:** Importance of robust code and defensive programming
 
 ### Java OOP Challenges
-1. **Challenge:** ___
-   - **Solution:** ___
+1. **Challenge:** ___  
+   - **Solution:** ___  
    - **Learned:** ___
 
-2. **Challenge:** ___
-   - **Solution:** ___
+2. **Challenge:** ___  
+   - **Solution:** ___  
    - **Learned:** ___
+
+---
 
 ## Key Takeaways
 
 ### Python
-- **Most Important Concept:** ___
-- **Most Challenging:** ___
-- **Favorite Feature:** ___
+- **Most Important Concept:** Functions and data structures
+- **Most Challenging:** Edge case handling and comprehensions
+- **Favorite Feature:** List comprehensions and built-in functions
 
 ### Java OOP
 - **Most Important Concept:** ___
 - **Most Challenging:** ___
 - **Favorite Feature:** ___
 
+---
+
 ## Resources Used
 
 ### Python Learning
-- [ ] Official Python documentation
-- [ ] Python tutorials
-- [ ] Practice websites (HackerRank, LeetCode)
+- [x] Official Python documentation
+- [x] Python tutorials
+- [x] Practice websites (HackerRank, LeetCode)
 - [ ] YouTube videos
 - [ ] Books/PDFs
 
@@ -195,17 +235,19 @@
 - [ ] YouTube videos
 - [ ] Books/PDFs
 
+---
+
 ## Week 1 Summary
 
 ### What Went Well
-- ___
-- ___
-- ___
+- Completed all Python basics and practice problems
+- Understood and applied list comprehensions
+- Practiced robust coding with edge cases
 
 ### What Could Be Improved
-- ___
-- ___
-- ___
+- More time on advanced data structures
+- More Java OOP practice
+- Deeper dive into error handling
 
 ### Time Management
 - **Total Time Spent:** ___ hours
@@ -213,9 +255,11 @@
 - **Efficiency Rating:** ___/5
 
 ### Readiness for Week 2
-- **Confidence Level:** ___/5
-- **Areas Needing Review:** ___
-- **Ready to Proceed:** Yes/No
+- **Confidence Level:** 4/5
+- **Areas Needing Review:** Advanced data structures, error handling, Java OOP
+- **Ready to Proceed:** Yes
+
+---
 
 ## Next Week Preparation
 
@@ -225,7 +269,7 @@
 - **Estimated Time:** 14-16 hours
 
 ### Pre-Week 2 Checklist
-- [ ] Complete all Week 1 exercises
+- [x] Complete all Week 1 exercises
 - [ ] Review challenging concepts
 - [ ] Set up development environment for Week 2
 - [ ] Plan daily study schedule

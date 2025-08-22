@@ -1,0 +1,45 @@
+#create list of random numbers
+import random
+random_numbers = [random.randint(1, 100) for _ in range(10)]
+def find_max(numbers):
+    if not numbers:
+        return None
+    max_num = numbers[0] # [0] is index
+    for num in numbers:
+        if num > max_num:
+            max_num = num
+    return max_num
+# print the list of random numbers
+print(find_max(random_numbers))
+print(max(random_numbers))
+print(min(random_numbers))
+print(sum(random_numbers))
+print(sorted(random_numbers))
+print(random_numbers)
+#count word frequency in a string
+
+from collections import Counter
+def word_phrase(text):
+    words = text.split()
+    return dict(Counter(words)) 
+print(word_phrase("learning python today and learning python tomorrow"))
+
+#palindrome check
+def is_palindrome(word):
+    cleaned = ''.join(char.lower() for char in word if char.isalnum())
+    return cleaned == cleaned[::-1]
+
+print(is_palindrome("Racecar"))
+print(is_palindrome("Python"))
+
+#unique elements in a list only inser unique elements
+def unique_elements(lst):
+    return list(set(lst)) 
+print(unique_elements([1, 2, 2, 3, 4, 4, 5]))
+
+#sum of even numbers in a list
+def sum_even_numbers(lst):
+    return sum(num for num in lst if num % 2 == 0)
+
+print(sum_even_numbers([1, 2, 3, 4, 5, 6]))
+

@@ -1,0 +1,207 @@
+# Study Progress Automation Rules
+
+## 🎯 **Primary Purpose**
+Automatically update progress tracking and create next-day schedules after each completed study session.
+
+---
+
+## ⚡ **QUICK REFERENCE - Copy & Paste These Commands:**
+
+### **Progress Updates:**
+```
+@progress [topic] [time]        → Quick progress update
+++ [topic] [time]               → Alternative quick command
+```
+
+### **Schedule Creation:**
+```
+@schedule [next_day]            → Create next day's schedule
+## [next_day]                   → Alternative quick command
+```
+
+### **Meta Exercise Completion:**
+```
+@meta [exercise_name]           → Mark Meta exercise complete
+!! [exercise_name]              → Alternative quick command
+```
+
+### **Day Completion:**
+```
+@day [day_number]               → Complete day, plan next
+** [day_number]                 → Alternative quick command
+```
+
+### **Weekend Handling:**
+```
+@weekend                        → Create Monday schedule
+
+---
+
+## 📋 **Session Completion Protocol**
+
+### **After Each Session (30+ minutes of study):**
+1. **Update Progress Files:**
+   - Mark completed topics with ✅ in `progress/week1_progress.md`
+   - Update time spent and add session notes
+   - Add reflection questions for completed topics
+   - Update Meta exercise completion status
+
+2. **Session Documentation:**
+   - Record specific challenges faced and solutions
+   - Note key learnings and breakthroughs
+   - Document any debugging processes or errors resolved
+
+---
+
+## 📅 **Daily Schedule Creation Protocol**
+
+### **After Each Complete Day:**
+1. **Create Next Study Day Schedule:**
+   - Generate `progress/[next_day]_schedule.md`
+   - Include remaining tasks from current day
+   - Plan next Meta exercise based on topic progression
+   - Set realistic time allocations (2-3 hours total)
+
+2. **Schedule Structure:**
+   - Morning session (30-45 min): Complete remaining tasks + new concepts
+   - Afternoon session (1-1.5 hours): Main learning + Meta exercise
+   - Evening session (30 min): Review + planning
+
+3. **Weekend Handling:**
+   - Skip weekend days (Saturday/Sunday)
+   - Create schedule for next Monday
+   - Note weekend break in progress files
+
+---
+
+## 🔄 **Progress Update Workflow**
+
+### **Step 1: Session Completion Check**
+- Verify what was actually completed vs. planned
+- Update time spent accurately
+- Mark topics as completed (✅) or in progress (🔄)
+
+### **Step 2: Reflection Questions**
+- Add 3-4 reflection questions after each completed topic
+- Questions should focus on learning process, challenges, and improvements
+- Include technical concept understanding and problem-solving approach
+
+### **Step 3: Meta Exercise Tracking**
+- Update completion status in Meta Tech Screen Preparation section
+- Note which topic area was covered
+- Track progress: X/17 exercises completed
+
+### **Step 4: Next Day Planning**
+- Identify incomplete tasks from current day
+- Plan next learning objectives
+- Create focused, achievable daily schedule
+
+---
+
+## 📁 **File Management Rules**
+
+### **Keep Only Essential Files:**
+1. **`complete_timeline.md`** - 7-week overview with reflection questions
+2. **`daily_study_schedule.md`** - General time management framework
+3. **`week1_progress.md`** - Weekly detailed progress with daily logs
+4. **`[day]_schedule.md`** - Current/next day specific plan
+
+### **File Cleanup:**
+- Remove completed daily schedules after 2 days
+- Archive completed week files when moving to next week
+- Keep only current week + next week schedule active
+
+---
+
+## 🎯 **Content Standards**
+
+### **Progress Updates Must Include:**
+- ✅/🔄 status for each topic
+- Actual time spent (not estimated)
+- Specific challenges and solutions
+- Key learnings and insights
+- Reflection questions for completed topics
+
+### **Schedule Creation Must Include:**
+- Clear session breakdown with time allocations
+- Specific learning objectives for each session
+- Meta exercise focus area
+- Success criteria for the day
+- Resources and preparation needed
+
+---
+
+## 🚀 **Automation Triggers**
+
+### **When to Update Progress:**
+- After any study session ≥30 minutes
+- When completing a Meta exercise
+- At the end of each study day
+- Before creating next day's schedule
+
+### **When to Create Schedule:**
+- After completing a full day's work
+- When transitioning to new topic areas
+- Before weekend breaks (create Monday schedule)
+- When mentor sessions are scheduled
+
+---
+
+## 🚀 **Quick Commands & Hotkeys**
+
+### **⚡ Ultra-Fast Commands (Type these exactly):**
+```
+"@progress [topic] [time]"     → Update progress for completed topic
+"@schedule [next_day]"         → Create next day's schedule
+"@meta [exercise_name]"        → Mark Meta exercise as completed
+"@day [day_number]"            → Complete day and plan next
+"@weekend"                     → Create Monday schedule (weekend break)
+```
+
+### **🎯 Specific Examples:**
+```
+"@progress Python modules 1.5h"           → Updates Day 3 progress
+"@schedule monday"                        → Creates Monday schedule
+"@meta Left Rotation"                     → Marks Meta exercise complete
+"@day 3"                                  → Completes Day 3, plans Day 4
+"@weekend"                                → Plans Monday (skips weekend)
+```
+
+### **📱 Alternative Quick Commands:**
+```
+"++ [topic] [time]"                       → Quick progress update
+"## [next_day]"                           → Quick schedule creation
+"!! [exercise]"                            → Quick Meta completion
+"** [day_number]"                          → Quick day completion
+```
+
+### **⌨️ Cursor Hotkey Setup (Optional):**
+You can also set up custom Cursor hotkeys in your settings:
+- `Cmd+Shift+P` → Type command
+- `Cmd+Shift+1` → Quick progress update
+- `Cmd+Shift+2` → Quick schedule creation
+- `Cmd+Shift+3` → Quick Meta exercise completion
+
+---
+
+## 🔧 **Technical Implementation**
+
+### **File Naming Convention:**
+- Progress: `week[#]_progress.md`
+- Schedules: `[day]_schedule.md` (e.g., `monday_schedule.md`)
+- Timeline: `complete_timeline.md`
+
+### **Status Icons:**
+- ✅ Completed
+- 🔄 In Progress
+- ⏰ Pending
+- 🎯 Next Up
+
+### **Date Format:**
+- Use full date format: August 25, 2025
+- Include day of week: Monday, August 25, 2025
+- Note weekend breaks explicitly
+
+---
+
+**Remember:** This system ensures consistent progress tracking and eliminates the need to manually remember what to update. Every session completion automatically triggers the next steps in your learning journey!

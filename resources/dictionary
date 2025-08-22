@@ -1,0 +1,103 @@
+#dictionary of common used commands,methods, functions, and parameters used in the prestudy project
+functions = {
+    "print": "Outputs the specified message to the console.",
+    "input": "Reads a line from input, converts it to a string, and returns it.",
+    "len": "Returns the number of items in an object.",
+    "range": "Generates a sequence of numbers, commonly used in for loops.",
+    "str": "Converts an object to its string representation.",
+    "int": "Converts a number or string to an integer.",
+    "float": "Converts a number or string to a floating-point number.",
+    "list": "Creates a list in Python.",
+    "dict": "Creates a dictionary in Python.",
+    "set": "Creates a set in Python."
+}
+
+parameters = {
+    "file": "Specifies the file to read from or write to.",
+    "mode": "Specifies the mode in which a file is opened (e.g., 'r' for read, 'w' for write).",
+    "encoding": "Specifies the encoding used to decode or encode the file.",
+    "delimiter": "Specifies the character that separates values in a file (commonly used in CSV files).",
+    "sep": "Short for separator, used in functions like print to specify how items are separated."
+}
+
+commands = {
+    "help": "Displays help information about commands and functions.",
+    "exit": "Exits the current program or script.",
+    "clear": "Clears the console output."
+}   
+
+methods = {
+    "isalnum": "Checks if all characters in a string are alphanumeric.",
+    "lower": "Converts all characters in a string to lowercase.",
+    "upper": "Converts all characters in a string to uppercase.",
+    "strip": "Removes leading and trailing whitespace from a string.",
+    "split": "Splits a string into a list based on a specified delimiter.",
+    "join": "Concatenates a list of strings into a single string with a specified separator.",
+    "append": "Adds an item to the end of a list.",
+    "remove": "Removes the first occurrence of a specified value from a list.",
+    "pop": "Removes and returns an item at a given index from a list.",
+    "sort": "Sorts the items of a list in place.",
+    "reverse": "Reverses the items of a list in place.",
+    "keys": "Returns a view object that displays a list of all the keys in a dictionary.",
+    "values": "Returns a view object that displays a list of all the values in a dictionary.",
+    "items": "Returns a view object that displays a list of dictionary's key-value tuple pairs."
+}
+
+#show the dictionary content
+def show_dictionary():
+    print("\nFunctions:\n")
+    for key, value in functions.items():
+        print(f"{key.upper()}: {value}")
+    
+    print("\nParameters:\n")
+    for key, value in parameters.items():
+        print(f"{key.upper()}: {value}")
+    
+    print("\nCommands:\n")
+    for key, value in commands.items():
+        print(f"{key.upper()}: {value}")
+    
+    print("\nMethods:\n")
+    for key, value in methods.items():
+        print(f"{key.upper()}: {value}")
+print(show_dictionary())
+
+#update the dictionary with the latest changes
+def update_dictionary(new_data, category=None):
+    """
+    Update the appropriate dictionary with new_data.
+    If category is specified ('functions', 'parameters', 'commands', 'methods'), 
+    new keys are added only to that dictionary.
+    If category is not specified, only existing keys are updated.
+    """
+    updated = False
+    for key, value in new_data.items():
+        if key in functions:
+            functions[key] = value
+            updated = True
+        elif key in parameters:
+            parameters[key] = value
+            updated = True
+        elif key in commands:
+            commands[key] = value
+            updated = True
+        elif key in methods:
+            methods[key] = value
+            updated = True
+        elif category:
+            if category == "functions":
+                functions[key] = value
+            elif category == "parameters":
+                parameters[key] = value
+            elif category == "commands":
+                commands[key] = value
+            elif category == "methods":
+                methods[key] = value
+            print(f"Key '{key}' added to {category}.")
+            updated = True
+        else:
+            print(f"Key '{key}' not found. Specify a category to add new keys.")
+    if updated:
+        print("Dictionary updated successfully.")
+    else:
+        print("No updates made.")
