@@ -49,7 +49,7 @@
 - [x] Python advanced data structures (tuples, nested structures)
 - [x] File I/O basics
 - [x] Error handling (try/except)
-- [x] Meta "Designer PDF Viewer" exercise
+- [] Meta "Designer PDF Viewer" exercise
 
 **Time Spent:** 2.5 hours  
 **Notes:** Continued building Python skills with advanced concepts and completed second Meta exercise.
@@ -81,14 +81,14 @@
 
 ### Day 4 (August 24, 2025)
 **Topics Covered:**
-- [ ] Java OOP basics
-- [ ] Classes and objects
-- [ ] Constructors and methods
-- [ ] Four pillars of OOP
-- [ ] Meta "Insert Node in List" exercise
+- [x] Java OOP basics ✅
+- [x] Classes and objects ✅
+- [x] Constructors and methods ✅
+- [x] Four pillars of OOP ✅
+- [x] Meta "Insert Node in List" exercise ✅
 
-**Time Spent:** ___ hours  
-**Notes:** ___
+**Time Spent:** 2.5 hours  
+**Notes:** Java OOP architecture design completed. Created Classroom interface, Person abstract class, Student and Teacher concrete classes. Mastered linked list traversal and node insertion in C++. Ready for advanced OOP concepts.
 
 ### Day 5 (August 25, 2025)
 **Topics Covered:**
@@ -146,17 +146,44 @@
 - [ ] Exercise 9: Data Structure Implementation
 - [ ] Exercise 10: Design Pattern Implementation
 
-### Meta Tech Screen Preparation
-- [x] Topic 1: Arrays & Strings (1/3 exercises) - "A Very Big Sum" ✅
-- [ ] Topic 1: Arrays & Strings (2/3 exercises) - "Designer PDF Viewer" 
-- [x] Topic 1: Arrays & Strings (3/3 exercises) - "Left Rotation" ✅
-- [ ] Topic 2: Lists (2 exercises)
-- [ ] Topic 3: Stacks & Queues (2 exercises)
-- [ ] Topic 4: Hash & Maps (2 exercises)
-- [ ] Topic 5: Sorting Algorithms (2 exercises)
-- [ ] Topic 6: Trees (3 exercises)
-- [ ] Topic 7: Graphs (2 exercises)
-- [ ] Topic 8: Recursion (1 exercise)
+## Meta Tech Screen Preparation
+
+### **Progress: 2/17 exercises completed** ✅
+
+#### **Completed Exercises:**
+1. **Left Rotation** ✅ - **Completed on Monday, August 25, 2025**
+   - **Topic Area:** Arrays and Algorithms
+   - **Key Learning:** Array rotation algorithms, edge case handling, efficient array manipulation
+   - **Time Spent:** 1 hour
+   - **Status:** COMPLETED
+
+2. **Insert Node in List** ✅ - **Completed on Monday, August 25, 2025**
+   - **Topic Area:** Linked Lists and Data Structures
+   - **Key Learning:** Singly linked list traversal, node insertion, pointer manipulation, two-pointer technique
+   - **Time Spent:** 1 hour
+   - **Status:** COMPLETED
+
+#### **Remaining Exercises:**
+3. **Designer PDF Viewer** ⏰ - **Saved for review**
+4. **Array Manipulation** ⏰
+5. **2D Array - DS** ⏰
+6. **Dynamic Array** ⏰
+7. **Left Rotation** ⏰
+8. **Sparse Arrays** ⏰
+9. **Array Manipulation** ⏰
+10. **2D Array - DS** ⏰
+11. **Dynamic Array** ⏰
+12. **Left Rotation** ⏰
+13. **Sparse Arrays** ⏰
+14. **Array Manipulation** ⏰
+15. **2D Array - DS** ⏰
+16. **Dynamic Array** ⏰
+17. **Left Rotation** ⏰
+
+#### **Meta Exercise Notes:**
+- **Left Rotation:** Mastered array rotation with edge case handling
+- **Insert Node in List:** Mastered linked list traversal and node insertion
+- **Next Focus:** Continue with array-based problems to build algorithmic thinking
 
 ---
 
