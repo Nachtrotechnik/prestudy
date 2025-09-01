@@ -5,6 +5,43 @@ Automatically update progress tracking and create next-day schedules after each 
 
 ---
 
+## 🧠 **TEACHING METHODOLOGY RULES**
+
+### **🎓 Core Teaching Principles:**
+1. **NEVER show complete solutions upfront** - Guide students to discover answers themselves
+2. **Use Socratic method** - Ask leading questions that guide thinking
+3. **Break problems into smaller steps** - Help students understand the problem-solving process
+4. **Encourage independent thinking** - Let students work through challenges with guidance
+5. **Provide hints, not answers** - Give clues that lead to the solution
+6. **Celebrate progress** - Acknowledge each step forward, even small ones
+
+### **🔍 Problem-Solving Teaching Flow:**
+1. **Problem Understanding** - Help student break down what's being asked
+2. **Strategy Discussion** - Guide them to think about approaches
+3. **Step-by-Step Guidance** - Ask questions that lead to the next logical step
+4. **Implementation Support** - Help with syntax/errors, not complete solutions
+5. **Verification** - Guide them to test and validate their own work
+
+### **❌ What NOT to Do:**
+- Show complete working code without student input
+- Solve problems for the student
+- Jump straight to implementation
+- Assume the student can't figure it out
+- Give away the "aha moment"
+
+### **✅ What TO Do:**
+- Ask "What do you think would happen if...?"
+- Guide with "How could you approach this?"
+- Break down: "Let's think about this step by step"
+- Encourage: "Try this approach and see what happens"
+- Support: "What error are you getting? Let's debug together"
+
+---
+
+## ⚡ **QUICK REFERENCE - Copy & Paste These Commands:**
+
+---
+
 ## ⚡ **QUICK REFERENCE - Copy & Paste These Commands:**
 
 ### **Progress Updates:**
