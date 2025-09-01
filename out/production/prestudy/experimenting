@@ -1,0 +1,83 @@
+#start
+print("Experimenting with Python code execution")
+# setting up variables
+name = "student"
+start = 2025
+my_integer = 42
+my_float = 3.14
+my_boolean = True
+my_complex = 1 + 2j
+# printing the variables
+print(my_integer, type(my_integer))
+print(my_boolean, type(my_boolean))
+print(my_complex, type(my_complex))
+print(my_float, type(my_float))
+  
+# using the variables in a sentence
+print(f"{name} starts the study guide in {start}")
+
+# study duration
+count = start
+while count < 2029:
+    print(f"{name} is studying in the year {count}")
+    count += 1 
+
+#pre study countdown
+weeks = 6 
+for week in range(weeks):
+    if week == 3: continue # skip week 4
+    if week == 6: break        
+    print(f"Week {week + 1}: Preparing for the study guide")
+
+#weekdays during pre study
+days = 5
+def multiply(a, b):
+    """This function multiplies two numbers"""
+    return a * b
+
+study_days = weeks * days
+print(f"Total study days: {study_days}")
+
+def assign_days(day, week = weeks):
+    """Assigns days to weeks"""
+    return f"Week {week} has {day} days"
+print(assign_days(days))
+
+def student_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+student_info(name= name, start= start, days= days, week= assign_days(days), study_days= study_days)
+
+def create_list():
+    my_list = [2025, 2026, 2027, 2028]
+    return my_list
+def print_list():
+    for year in create_list():
+        print(f"Year: {year}")
+print_list()
+
+def create_dictionary():
+    my_dict = {
+        "name": name,
+        "start": start,
+        "duration": weeks,
+        "days": days,
+        "boolean": my_boolean,
+        "integer": my_integer,
+        "float": my_float,
+        "complex": my_complex
+    }
+    return my_dict
+
+def print_dictionary():
+    for key, value in create_dictionary().items():
+        print(f"{key}: {value}")
+print_dictionary()
+
+topics = {"Variables", "Data Types", "Control Structures", "Functions", "Modules"}
+today_topic = {"Data Structures", "Functions"}
+print(topics.union(today_topic))
+print(topics.intersection(today_topic))
+print(topics.difference(today_topic))
+today_topic.remove("Functions")
+print(topics)
