@@ -1,4 +1,5 @@
 
+
 /**
  * ValidationResult class to hold validation status and error details.
  * This provides a clean way to return validation results from validation methods.
