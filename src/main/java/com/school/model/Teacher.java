@@ -1,3 +1,5 @@
+package com.school.model;
+
 /**
  * Teacher class that extends Person and implements teaching/learning behaviors.
  * Teachers primarily teach but also continue learning and professional development.
@@ -30,6 +32,17 @@ public class Teacher extends LearnPerson {
     protected ValidationResult validateExperienceLevel(int experienceLevel) {
         if (experienceLevel < 2) {
             return ValidationResult.failure("Teacher must have at least 2 years of experience. Current level: " + experienceLevel);
+        }
+        return ValidationResult.success();
+    }
+
+    /**
+     * Teacher-specific ID validation: must be positive
+     */
+    @Override
+    protected ValidationResult validateId(int id) {
+        if (id <= 0) {
+            return ValidationResult.failure("Teacher ID must be positive. Current ID: " + id);
         }
         return ValidationResult.success();
     }

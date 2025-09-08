@@ -1,3 +1,12 @@
+package com.school.test;
+
+import com.school.model.Student;
+import com.school.model.Teacher;
+import com.school.model.Director;
+import com.school.enums.Department;
+import com.school.enums.Event;
+import com.school.enums.Public;
+
 /**
  * Test class to demonstrate the OOP architecture:
  * Classroom interface -> Person abstract class -> Student/Teacher concrete classes

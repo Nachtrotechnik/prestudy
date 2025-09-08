@@ -78,7 +78,7 @@ for i in range(10):
 ### Basic Function Definition
 ```python
 def greet(name):
-    """This function greets the person passed in as a parameter"""
+    """This function greets the learnPerson passed in as a parameter"""
     return f"Hello, {name}!"
 
 # Function call

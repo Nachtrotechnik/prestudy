@@ -88,7 +88,7 @@
 - [x] Meta "Insert Node in List" exercise ✅
 
 **Time Spent:** 2.5 hours  
-**Notes:** Java OOP architecture design completed. Created Classroom interface, Person abstract class, Student and Teacher concrete classes. Mastered linked list traversal and node insertion in C++. Ready for advanced OOP concepts.
+**Notes:** Java OOP architecture design completed. Created Classroom interface, LearnPerson abstract class, Student and Teacher concrete classes. Mastered linked list traversal and node insertion in C++. Ready for advanced OOP concepts.
 
 ### Day 5 (August 25, 2025)
 **Topics Covered:**
@@ -99,7 +99,7 @@
 **Time Spent:** 3 hours  
 **Notes:** ✅ **COMPLETED** Meta "Insert Node in List" exercise (C++ Linked Lists). ✅ **COMPLETED** Advanced OOP validation system implementation:
 - Created ValidationResult class with success/failure methods
-- Enhanced Person class with abstract validation methods
+- Enhanced LearnPerson class with abstract validation methods
 - Implemented Student-specific validation (age≥18, exp≥0)
 - Implemented Teacher-specific validation (age≥21, exp≥2)
 - Created comprehensive test demonstrating validation system

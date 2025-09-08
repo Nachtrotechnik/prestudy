@@ -1,3 +1,5 @@
+package com.school.model;
+
 /**
  * Student class that extends Person and implements learning/teaching behaviors.
  * Students primarily learn but can also teach in peer-to-peer scenarios.
@@ -33,6 +35,17 @@ public class Student extends LearnPerson {
     protected ValidationResult validateExperienceLevel(int experienceLevel) {
         if (experienceLevel < 0) {
             return ValidationResult.failure("Experience level cannot be negative. Current level: " + experienceLevel);
+        }
+        return ValidationResult.success();
+    }
+
+    /**
+     * Student-specific ID validation: must be positive
+     */
+    @Override
+    protected ValidationResult validateId(int id) {
+        if (id <= 0) {
+            return ValidationResult.failure("Student ID must be positive. Current ID: " + id);
         }
         return ValidationResult.success();
     }
